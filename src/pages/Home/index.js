@@ -54,7 +54,7 @@ export default function Home() {
 
   return (
     <Wrapper>
-      <img src={logo} alt="MemeMaker"/>
+      <img src={logo} alt="MemesMaker"/>
 
       <Card>
         {generatedMeme && (
@@ -66,7 +66,7 @@ export default function Home() {
 
         {!generatedMeme && (
           <>
-            <h2>Selecione um template</h2>
+            <h2>SELECIONE UM TEMPLATE:</h2>
             <Templates>
               {templates.map((template) => (
                 <button
